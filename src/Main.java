@@ -11,7 +11,6 @@ public class Main {
 
 
 	public static void main(String[] args){
-
 		OMFactory factory = OMAbstractFactory.getOMFactory();
 		OMElement method = factory.createOMElement("getPriceResponse", "23", null);
 		OMElement value = factory.createOMElement("price", "24", null);
