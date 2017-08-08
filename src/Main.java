@@ -18,5 +18,6 @@ public class Main {
         value.addChild(factory.createOMText(value, ""));
         method.addChild(value);
 		System.out.println(method);
+		
     }
 }
